@@ -6,13 +6,15 @@ This automation framework tests the TalentSage Recruitment Operating System usin
 # AuthModule (Registration)
 This include filling registration form and verify registraion 
 # Hompage Visits 
-This include juts visit Home page and verify home page 
+This include just visit Home page and verify home page 
 # Api Autmation
 # POST Request on dummy Api
 # Get Request on dummy Api 
 
+# Goal 
+The Goal of  Autmation is to automate repetitive Tasks As registration is always repeating and most importand module . Hence I automate it . It helps in time saving and Quality Improvement .. 
 
-## 🚀 Why We Automated These Tests
+## Why We Automated These Tests
 
 - **Save Time**: Run tests in minutes instead of hours of manual testing
 - **Catch Bugs Early**: Automated tests run on every code change

@@ -7,6 +7,7 @@ export class AuthPage {
         this.page = page;
     }
 
+    // Filling Registration Form ...
 async register(name: string, companyname : string, email: string, password: string, comfirmpasword: string) {
         
   await this.page.getByRole('navigation').getByRole('button', { name: 'Start Free Trial' }).click();
@@ -25,7 +26,7 @@ async register(name: string, companyname : string, email: string, password: stri
 
     }
 
-
+// Verify Registarion 
 async verifyRegisteration() {
 
         await this.page.getByRole('heading', { name: 'TalentSage Dashboard' }).click();

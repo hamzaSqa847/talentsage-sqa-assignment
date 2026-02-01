@@ -7,23 +7,18 @@ export class HomePage {
     this.page = page;
   }
 
+  // Vist homepage of the website 
   async goto() {
     await this.page.goto('https://talentsage.io/');
   }
 
+  // Verify either homepage Text is visible 
   async verifyHomePageVisible() {
 
     await  expect(this.page.getByRole('heading', { name: 'Hire Better, Faster & Fairer.' })) .toBeVisible();
   }
 
-   
-//   async goToContactPage() {
-//     await this.page.getByRole('link', { name: 'Contact us' }).click();
-//   }
 
-  // async goToLoginPage() {
-  //   await this.page.getByRole('link', { name: 'Signup / Login' }).click();
-  // }
 
   
 }
