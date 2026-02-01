@@ -8,8 +8,8 @@ This include filling registration form and verify registraion
 # Hompage Visits 
 This include just visit Home page and verify home page 
 # Api Autmation
-# POST Request on dummy Api
-# Get Request on dummy Api 
+# POST Request on dummy blog  Api
+# Get Request on dummy blog Api 
 
 # Goal 
 The Goal of  Autmation is to automate repetitive Tasks As registration is always repeating and most importand module . Hence I automate it . It helps in time saving and Quality Improvement .. 
