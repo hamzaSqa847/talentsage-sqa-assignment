@@ -41,12 +41,12 @@ export default defineConfig({
 
     // {
     //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
+    //   use: { ...devices['Desktop Firefox'] },   //commented for testing can be uncomment ...
     // },
 
     // {
     //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'] },
+    //   use: { ...devices['Desktop Safari'] },   // comented for testing can be uncomment ...
     // },
 
     /* Test against mobile viewports. */
